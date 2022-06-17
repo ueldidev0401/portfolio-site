@@ -5,11 +5,11 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Senior Blockchain Engineer",
+    cardImage: "assets/images/experience-page/MMP.png",
+    place: "MMP Capital",
+    time: "(Nov, 021 – Feb, 2022)",
+    desp: "<li>Smart Contract based ERC721 & ERC721A, ERC1155</li> <li>ERC721A is a new version of ERC721 to save minting gas fee (e.g Azuki Collection)</li> <li>Use Merkle Tree for Whitelist during PreSale to save gas fee</li> <li>NFT Staking Contract to reward users with utility/governance ERC20 tokens</li> <li>Build Art Generator for random images for every token</li> <li>Build minting frontend site with web3.js or ethers.js, React.js</li> <li>Support different wallets, </li> <li>PreSale & Public Sale Settings with Countdown</li> <li>Deploy NFT Arts to IPFS and reveal all after public sale</li> <li>Rarely develop Voxel version of NFT for future roadmap</li> <li>Dutch Auction Available</li>",
   },
   {
     title: "Student Developer",
