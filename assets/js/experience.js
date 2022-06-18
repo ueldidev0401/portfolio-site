@@ -12,18 +12,61 @@ const exp = [
     desp: "<li>Smart Contract based ERC721 & ERC721A, ERC1155</li> <li>ERC721A is a new version of ERC721 to save minting gas fee (e.g Azuki Collection)</li> <li>Use Merkle Tree for Whitelist during PreSale to save gas fee</li> <li>NFT Staking Contract to reward users with utility/governance ERC20 tokens</li> <li>Build Art Generator for random images for every token</li> <li>Build minting frontend site with web3.js or ethers.js, React.js</li> <li>Support different wallets, </li> <li>PreSale & Public Sale Settings with Countdown</li> <li>Deploy NFT Arts to IPFS and reveal all after public sale</li> <li>Rarely develop Voxel version of NFT for future roadmap</li> <li>Dutch Auction Available</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Blockchain Lead Developer",
+    cardImage: "assets/images/experience-page/payU.jpg",
+    place: "PayU",
+    time: "(Jul 2020 – Oct 2021)",
+    desp: "<li>Built first biggest NFT Marketplace of digital art on Binance Smart Chain. Used ERC721, ERC-1155 both for NFT and      BEP-20 for governance token. </li>"+
+          "<li>Implemented basic functionalities of NFT Marketplace such as sale, auction, airdrop and used proxy for service fee calculation.</li>"+
+          "<li>Implemented NFT fractionalization so that users are able to co-won NFT and decide further steps like sale, auction, airdrop together. </li>"+
+          "<li>Built Staking Rewards contract, so investors earn stable tokens by staking NFTs and LP tokens.</li>"+
+          "<li>Demystified Blockchain technology by offering blockchain workshops and events.</li>"+
+          "<li>Worked on a Decentralized Apps that utilizes the Ethereum Blockchain for the creation of a supply chain management system interface using React.js, Redux and Node.js </li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Blockchain Developer",
+    cardImage: "assets/images/experience-page/robeco.png",
+    place: "Robeco",
+    time: "(Mar 2019 – Jul 2020)",
+    desp: "<li>Developed whole smart contract for Decentralized Exchange, passed Audit from Certik and SlowMist. </li>"+
+          "<li>Developed on-chain & off-chain governance protocol with ERC20 based tokens so that users are able to make decision of adding new features a nd modifying current functionalities of platform.</li>"+
+          "<li>Built Staking Rewards contract, so investors can receive tokens by staking their fiat crypto currency and LP tokens.</li>"+
+          "<li>Implemented Yield Farming, snack pools and involved LP token logic in platform.</li>"+
+          "<li>Built web pages for customers using React.js, React native and Redux for responsive and highly-reusable UX/UI system. </li>",
+  },
+  {
+    title: "Senior Full Stack Developer",
+    cardImage: "assets/images/experience-page/CXC.jpg",
+    place: "CXC Global",
+    time: "(Mar 2018 – Feb 2019)",
+    desp: "<li>Cooperate diligently with other IT team members to plan, design, and develop smart solutions. </li>"+
+          "<li>Liaise with network administrators, systems analysts, programmers, and other software engineers to resolve any defects in products or company systems. </li>"+
+          "<li>Knowledge of technology trends, including but not restricted to front end & backend technologies, Rapid Prototyping, Behavior Driven Development, trends in Social Networking/Media, Video and Streaming. </li>"+
+          "<li>Bringing mock-ups to life using JavaScript Libraries.</li>"+
+          "<li>Reduced build time of Vectorworks Nomad by 30% by splitting the app in to modules. </li>"+
+          "<li>Software design and development while remaining concentrate on client needs. </li>",
+  },
+  {
+    title: "Full Stack Developer",
+    cardImage: "assets/images/experience-page/siemens.png",
+    place: "siemens",
+    time: "( Jun 2016 – Feb 2018)",
+    desp: "<li>Developed with enterprises and firms and made such a great application to give enormous profits to co-worked firms. </ li>"+
+          "<li>Focused on co-works with other developers to plan, design, and develop complete applications. </li>"+
+          "<li>Improved efficiency of existing solutions and fixing bugs for stable use in end-user experience. </li>"+
+          "<li>Consulted regularly with a number of companies and contacted them to build smart solutions for build user friendly web apps and mobile apps and tried to increase revenue with great efforts. </li>"+
+          "<li>Enhanced a number of live web applications and several platforms diligently using more powerful authentication system such as OAuth and customized web tokens. </li>"+
+          "<li>Installed Docker and Git including auto scaling EC2 instances and using Elastic Beanstalk to analyze logs, deploying J2EE application with JBOSS WildFly, REDSHIFT on the AWS cloud.</li>",
+  },
+  {
+    title: "FullStack Developer",
+    cardImage: "assets/images/experience-page/mujin.jpg",
+    place: "mujin inc",
+    time: "(apan Sep 2012 – Jul 2016)",
+    desp: "<li>Designed and developed for maintenance of secure REST/SOAP web services for payment solutions using PayPal, Stripe and credit card. </li>"+
+          "<li>Used Git as source control management giving a huge speed advantage on centralized systems that have to communicate with a server.</li>"+
+          "<li>Created and configured new JIRA projects and worked with departments to maintain existing JIRA projects. </li>"+
+          "<li>Supported funnel and development work in Agile, waterfall and blends of these methodologies across companies</li>",
   },
 ];
 
@@ -56,170 +99,3 @@ const showCards2 = () => {
   experiencecards.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards2);
-
-// Volunteership Cards
-
-const volunteership = document.querySelector(".volunteership");
-const volunteershipcards = [
-  {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
-    description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
-  },
-  {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
-    description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
-  },
-  {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
-    description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-  },
-];
-
-const showCards = () => {
-  let output = "";
-  volunteershipcards.forEach(
-    ({ title, cardImage, description }) =>
-      (output += `        
-      <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
-      
-      <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
-      <div class="content">
-          <h2 class="volunteerTitle">${title}</h2><br>
-          <p class="copy">${description}</p></div>
-      
-      </div>
-      `)
-  );
-  volunteership.innerHTML = output;
-};
-document.addEventListener("DOMContentLoaded", showCards);
-
-// Hackathon Section
-
-const hackathonsection = document.querySelector(".hackathon-section");
-const mentor = [
-  {
-    title: "The Uplift Project",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/uplift.png",
-    desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
-  },
-  {
-    title: "ULHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/ulhacks.png",
-    desp: "ULHacks is a 36 hour long hackathon organized with an aim to enable students to create a project which empowers learning.",
-  },
-  {
-    title: "WaffleHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/wafflehacks.png",
-    desp: "WaffleHacks 2021 is an upcoming 48-hour student-organized hackathon with an aim to bring technical solutions to local communities and small businesses.",
-  },
-  {
-    title: "Elevate Tech",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/elevate.png",
-    desp: "Elevate Hacks is an upcoming all-female virtual hackathon coming from AUGUST 14th to 15th.",
-  },
-  {
-    title: "PitchTeen",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/pitchteen.png",
-    desp: "PitchTeen 2.0 was a tech startup competition for female and non-binary communities in high school and college from all over the world with an aim to create a safe and encouraging place for women to help them explore tech and business fields.",
-  },
-  {
-    title: "Hack-A-Solution",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/hackasolution.png",
-    desp: "Hack-a-Solution 2021 is a 24 hour long hackathon organized by Frisco students to raise awareness of world issues through technology.",
-  },
-  {
-    title: "UniGlobe Hacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/uniglobe.png",
-    desp: "UniGlobe Hacks 2.0 is an upcoming 4-day long hackathon run by high school students held during 28-31 July 2021.",
-  },
-  {
-    title: "AtlasHacks",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/atlas.png",
-    desp: "AtlasHacks II is a 3-day virtual hackathon that aims to foster creativity within hackers all around the world.",
-  },
-  {
-    title: "NeoHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/neo.png",
-    desp: "NeoHacks is an upcoming 48-hour hackathon taking place July 23-25, 2021 where hundreds of students from around the world will come together virtually to learn new skills, meet new friends, and build awesome projects. We provide beginner-friendly workshops, mentorship, fun games, and more.",
-  },
-  {
-    title: "Mission Inspired",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/mission.png",
-    desp: "InspireEd Hacks is a nationwide initiative organized by the student-for-student nonprofit, Mission InspirEd, challenging students ages 10-18 to synthesize their creativity and coding experience into a product beneficial to the educational community.",
-  },
-  {
-    title: "Hack3",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/hack3.png",
-    desp: "Hack3 2021 is an upcoming global online hackathon that aims to enable high school students to learn computer science, with a broader message of (everyone can code) targeting underrepresented demographics to improve diversity and inclusion of individuals in the computer technology space.",
-  },
-  {
-    title: "JITHack",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/jithack.png",
-    desp: "JITHack is an upcoming virtual design and development hackathon organized by the students of Jyothy Institute of Technology, Bengaluru on June 26, 2021, where participants have 24 hours to build something incredible.",
-  },
-  {
-    title: "Recess Hacks",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/recess.png",
-    desp: "Recess Hacks is an upcoming hackathon for high school students in the Greater Toronto Area that strives to encourage innovation among high school students and get involved in technology.",
-  },
-  {
-    title: "Citro Tech",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/citro.png",
-    desp: "Citro Hacks 2021 is an upcoming all-inclusive online hackathon organized by Citro Tech, a student led organization dedicated to empowering minorities in the tech field</li>",
-  },
-  {
-    title: "NHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/nhacks.png",
-    desp: "NHacks VI was a hackathon that aimed to encourage students everywhere to develop skills in computer science by creating tangible products that they're proud of. It initially started as Michigan's largest high school hackathon.",
-  },
-];
-
-const showCards3 = () => {
-  let output = "";
-  mentor.forEach(
-    ({ title, image, subtitle, desp }) =>
-      (output += `  
-      <div class="blog-slider__item swiper-slide">
-        <div class="blog-slider__img">
-            <img src="${image}" alt="">
-        </div>
-        <div class="blog-slider__content">
-          <div class="blog-slider__title">${title}</div>
-          <span class="blog-slider__code">${subtitle}</span>
-          <div class="blog-slider__text">${desp}</div>
-          <a href="#" class="blog-slider__button">Read More</a>   
-        </div>
-      </div>
-      `)
-  );
-  hackathonsection.innerHTML = output;
-};
-document.addEventListener("DOMContentLoaded", showCards3);
