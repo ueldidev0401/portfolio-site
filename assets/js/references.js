@@ -7,34 +7,34 @@ const referenceTable = document.querySelector(".pain");
 const references = [
   {
     sl1: 1,
-    name1 : "Smaranjit Ghose",
-        designation1 : "Product Manager, Microsoft",
-        image1 : "https://avatars.githubusercontent.com/u/46641503?v=4",
-        message1 : "John is a conscientious individual whom I mentored during JWOC'2021. His problem-solving skills and a keen interest in learning new skillsets are remarkable. His hardworking nature and team-building abilities make him different from others.",
+    name1 : "Knut Ole Sjoli",
+        designation1 : "CTO and Co-Founder at MapicAS",
+        image1 : "assets/images/references-page/knut_ole_sjli.webp",
+        message1 : "Over the course of approximately a month, I have worked with Amon. He has kept in fantastic communication, provided quick solutions to issues, aided in UI development, as well as being easy to work with. When I started, I provided a mock up of what I had expected, and he made sure every requirement was included in our final build. Overall, I am more than happy with my decision to move forward with Amon. He offered a fair price in the industry of App Development for a fully functional prototype of my game. He also reached back out to me after development to make sure there were no outstanding issues that may have been missed. I had provided a punch list, expecting these items to take approximately 2 weeks or so, and he turned the entire list around within 4 days. I encourage anyone needing app development to at least reach out to Amon, and I hope you find as much success as I have through him.",
         
 
         sl2:2,
-        name2 : "Anush Bhatia",
-        designation2 : "Senior Analyst, Capgemini", 
-        image2: "https://avatars.githubusercontent.com/u/40017559?v=4",
-        message2 : "John has the best grasping skills I have seen in a new developer. I got to know him through GSSOC'2021 when I mentored him, and he made an exceptional growth during the competition. He made some incredible contributions and has good experience with Open Source.",
+        name2 : "Ilya Shirshove",
+        designation2 : "Product Manager of Instahire Pty", 
+        image2: "assets/images/references-page/ilya_shirshov.webp",
+        message2 : "We've been working with Amon for years. Flawless and timely execution throughout. Really pleased to work with a very talented developer.",
         
         
     },
 
     {
         sl1:3,
-        name1 : "Aditya Jyoti Paul",
-        designation1 : "Technical Analyst, Amazon",
-        image1 : "https://media-exp1.licdn.com/dms/image/C5603AQGEV-kzawPxjw/profile-displayphoto-shrink_800_800/0/1588602102622?e=1651708800&v=beta&t=8nxhFoR-WB4OKVltyYaVjmRpig_kQcvFsoa-eLjJPBQ",
-        message1 : "John and I have worked on several projects. Apart from technical skills, he also has good soft skills. He has good experience with debugging and has excellent leadership qualities.",
+        name1 : "Ilya Yordanov",
+        designation1 : "Founder of MoneyWiz",
+        image1 : "assets/images/references-page/ilya_yordanov.webp",
+        message1 : "Amon is most loyal, ethical and dedicated developer I've ever seen.",
         
 
         sl2:4,
-        name2 : "Arnab Dutta Purkayastha",
-        designation2 : "Data Scientist, Flipkart",
-        image2 : "https://avatars.githubusercontent.com/u/59832779?v=4",
-        message2 : "John and I worked together during a hackathon and the thing that surprised me the most about him was his knowledge of fundamentals. He offered sincere help to the team throughout the competition. He is an impressive problem solver who is able to address complex issues strategically and confidently.",
+        name2 : "Gordon Marsh",
+        designation2 : "CEO of CodeFuse",
+        image2 : "assets/images/references-page/gordon_marsh.webp",
+        message2 : "Amon is a developer that asks good questions in order to understand the project really well and works in good faith and without negligence.",
   },
 ];
 
